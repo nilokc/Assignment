@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test Cases" time="181" tests="5" failures="0" errors="0">
+   <testsuite name="All Test Cases" tests="5" failures="0" errors="0" time="181" timestamp="2018-10-29 00:16:04" hostname="nil - Apple-PC" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nil\\Desktop\\StudyCaseQA-master\\StudyCaseQA-master\\Reports\\All Test Cases\\20181029_001601"/>
+         <property name="logFiles" value="C:\\Users\\nil\\Desktop\\StudyCaseQA-master\\StudyCaseQA-master\\Reports\\All Test Cases\\20181029_001601\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nil - Apple-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.112"/>
+         <property name="sessionId" value="a07d84e8c16e39566b60f909cf68e977"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/CalenderPage/testNewOutofOrder" classname="Test Cases/CalenderPage/testNewOutofOrder" status="PASSED">
+         <system-out><![CDATA[2018-10-29 00:16:04 - [TEST_CASE][PASSED] - Test Cases/CalenderPage/testNewOutofOrder: Test Cases/CalenderPage/testNewOutofOrder
+
+2018-10-29 00:16:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:16:05 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-29 00:16:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 00:16:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 00:16:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 00:16:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 00:16:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:16:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:16:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:16:15 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:16:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:16:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:16:16 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:16:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:16:16 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:16:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:16:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:16:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:16:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:16:21 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:16:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:16:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:16:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-29 00:16:22 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteRezervation: Test Cases/Helper/deleteRezervation
+
+2018-10-29 00:16:22 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:16:22 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-29 00:16:22 - [TEST_STEP][PASSED] - Statement - While (true): null
+
+2018-10-29 00:16:22 - [TEST_STEP][PASSED] - Statement - element = org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-event')]//div[contains(@id, 'content') and not(contains(@title, 'ZAPPELLA Andrew'))])[1]"): null
+
+2018-10-29 00:16:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:16:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:16:27 - [TEST_STEP][PASSED] - Statement - If (driver.findElement(element).isDisplayed()): Refresh successfully
+
+2018-10-29 00:16:27 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:16:27 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:16:27 - [TEST_STEP][PASSED] - Statement - driver.findElement(element).click(): null
+
+2018-10-29 00:16:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervationDetails' is clickable
+
+2018-10-29 00:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationDetails' is clickable
+
+2018-10-29 00:16:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationDetails' is clicked on
+
+2018-10-29 00:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationDetails' is clicked on
+
+2018-10-29 00:16:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-29 00:16:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-29 00:16:31 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/deleteButton' is clickable
+
+2018-10-29 00:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/deleteButton' is clickable
+
+2018-10-29 00:16:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/deleteButton' is clicked on
+
+2018-10-29 00:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/deleteButton' is clicked on
+
+2018-10-29 00:16:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-29 00:16:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-29 00:16:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/deleteRezervationYesButton' is clickable
+
+2018-10-29 00:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/deleteRezervationYesButton' is clickable
+
+2018-10-29 00:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/deleteRezervationYesButton' is clicked on
+
+2018-10-29 00:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/deleteRezervationYesButton' is clicked on
+
+2018-10-29 00:16:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-29 00:16:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-29 00:16:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/saveButton' is clickable
+
+2018-10-29 00:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/saveButton' is clickable
+
+2018-10-29 00:16:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/saveButton' is clicked on
+
+2018-10-29 00:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/saveButton' is clicked on
+
+2018-10-29 00:16:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 00:16:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 00:16:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/calendar' successfully
+
+2018-10-29 00:16:40 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/calendar' successfully
+
+2018-10-29 00:16:40 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-29 00:16:40 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-29 00:16:40 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-10-29 00:16:43 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-10-29 00:16:43 - [TEST_STEP][PASSED] - Statement - element = org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-event')]//div[contains(@id, 'content') and not(contains(@title, 'ZAPPELLA Andrew'))])[1]"): null
+
+2018-10-29 00:16:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:16:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:16:48 - [TEST_STEP][PASSED] - Statement - If (driver.findElement(element).isDisplayed()): null
+
+2018-10-29 00:16:48 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-29 00:16:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-29 00:16:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-29 00:16:48 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteOutoOfOrder: Test Cases/Helper/deleteOutoOfOrder
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - calEvents = driver.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title']")): null
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - While (true): null
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-29 00:16:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/newOutoOfOrder' successfully
+
+2018-10-29 00:16:49 - [TEST_CASE][PASSED] - Test Cases/Helper/newOutoOfOrder: Test Cases/Helper/newOutoOfOrder
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newOutofOrderButton' is clickable
+
+2018-10-29 00:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newOutofOrderButton' is clickable
+
+2018-10-29 00:16:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/newOutofOrderButton' is clicked on
+
+2018-10-29 00:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/newOutofOrderButton' is clicked on
+
+2018-10-29 00:16:50 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-29 00:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-29 00:16:50 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-29 00:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-29 00:16:50 - [TEST_STEP][PASSED] - Statement - x = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getElementLeftPosition(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/1stFloor103), STOP_ON_FAILURE): Left position of element 'Object Repository/CalenderPage/1stFloor103' is '316'
+
+2018-10-29 00:16:50 - [MESSAGE][PASSED] - Left position of element 'Object Repository/CalenderPage/1stFloor103' is '316'
+
+2018-10-29 00:16:50 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=466 and y=416
+
+2018-10-29 00:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=466 and y=416
+
+2018-10-29 00:16:51 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/saveButton' is clickable
+
+2018-10-29 00:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/saveButton' is clickable
+
+2018-10-29 00:16:51 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-29 00:16:51 - [TEST_STEP][PASSED] - Statement - For ([i = 3, i < 8, (i++)]): null
+
+2018-10-29 00:16:51 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-29 00:16:52 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-29 00:16:52 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-29 00:16:53 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-29 00:16:53 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-29 00:16:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/saveButton' is clicked on
+
+2018-10-29 00:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/saveButton' is clicked on
+
+2018-10-29 00:16:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:16:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:16:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/newOutoOfOrder' successfully
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-29 00:16:58 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteOutoOfOrder: Test Cases/Helper/deleteOutoOfOrder
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - calEvents = driver.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title']")): null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - While (true): null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:16:58 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-29 00:16:58 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:16:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:16:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:05 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:17:05 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:05 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:05 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:05 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:05 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-29 00:17:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:07 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:13 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-29 00:17:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:14 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:20 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-29 00:17:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-29 00:17:21 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-29 00:17:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:17:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:17:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:27 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:17:27 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-29 00:17:27 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-29 00:17:27 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-10-29 00:17:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-29 00:17:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 00:17:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalenderPage/testCalenderSplit" classname="Test Cases/CalenderPage/testCalenderSplit" status="PASSED">
+         <system-out><![CDATA[2018-10-29 00:17:28 - [TEST_CASE][PASSED] - Test Cases/CalenderPage/testCalenderSplit: Test Cases/CalenderPage/testCalenderSplit
+
+2018-10-29 00:17:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:17:28 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-29 00:17:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 00:17:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 00:17:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 00:17:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 00:17:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:17:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:17:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:17:35 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:17:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:17:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:17:35 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:17:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:17:36 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:17:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:17:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:17:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:17:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:17:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-29 00:17:41 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteRezervation: Test Cases/Helper/deleteRezervation
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - Statement - While (true): null
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - Statement - element = org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-event')]//div[contains(@id, 'content') and not(contains(@title, 'ZAPPELLA Andrew'))])[1]"): null
+
+2018-10-29 00:17:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:17:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:17:46 - [TEST_STEP][PASSED] - Statement - If (driver.findElement(element).isDisplayed()): null
+
+2018-10-29 00:17:46 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-29 00:17:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-29 00:17:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/NewRezervation' successfully
+
+2018-10-29 00:17:46 - [TEST_CASE][PASSED] - Test Cases/Helper/NewRezervation: Test Cases/Helper/NewRezervation
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:17:47 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/newRezervationButton' is clicked on
+
+2018-10-29 00:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/newRezervationButton' is clicked on
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-29 00:17:47 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-29 00:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - Statement - x = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getElementLeftPosition(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/1stFloor103), STOP_ON_FAILURE): Left position of element 'Object Repository/CalenderPage/1stFloor103' is '316'
+
+2018-10-29 00:17:47 - [MESSAGE][PASSED] - Left position of element 'Object Repository/CalenderPage/1stFloor103' is '316'
+
+2018-10-29 00:17:47 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=466 and y=416
+
+2018-10-29 00:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=466 and y=416
+
+2018-10-29 00:17:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' is visible
+
+2018-10-29 00:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' is visible
+
+2018-10-29 00:17:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Mrs' are selected in object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' 
+
+2018-10-29 00:17:48 - [MESSAGE][PASSED] - All options with label 'Mrs' are selected in object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' 
+
+2018-10-29 00:17:48 - [TEST_STEP][PASSED] - sendKeys: Keys '05348521123' sent to object: 'Object Repository/CalenderPage/rezervationPopup/cellNoInput'
+
+2018-10-29 00:17:49 - [MESSAGE][PASSED] - Keys '05348521123' sent to object: 'Object Repository/CalenderPage/rezervationPopup/cellNoInput'
+
+2018-10-29 00:17:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test Company' sent to object: 'Object Repository/CalenderPage/rezervationPopup/companyInput'
+
+2018-10-29 00:17:49 - [MESSAGE][PASSED] - Keys 'Test Company' sent to object: 'Object Repository/CalenderPage/rezervationPopup/companyInput'
+
+2018-10-29 00:17:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/firstNameInput'
+
+2018-10-29 00:17:49 - [MESSAGE][PASSED] - Keys 'test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/firstNameInput'
+
+2018-10-29 00:17:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'user' sent to object: 'Object Repository/CalenderPage/rezervationPopup/lastNameInput'
+
+2018-10-29 00:17:50 - [MESSAGE][PASSED] - Keys 'user' sent to object: 'Object Repository/CalenderPage/rezervationPopup/lastNameInput'
+
+2018-10-29 00:17:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'testuser@mail.com' sent to object: 'Object Repository/CalenderPage/rezervationPopup/emailInput'
+
+2018-10-29 00:17:50 - [MESSAGE][PASSED] - Keys 'testuser@mail.com' sent to object: 'Object Repository/CalenderPage/rezervationPopup/emailInput'
+
+2018-10-29 00:17:50 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Turkey (TR)' are selected in object 'Object Repository/CalenderPage/rezervationPopup/countrySelect' 
+
+2018-10-29 00:17:50 - [MESSAGE][PASSED] - All options with label 'Turkey (TR)' are selected in object 'Object Repository/CalenderPage/rezervationPopup/countrySelect' 
+
+2018-10-29 00:17:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'test test test test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/commentTextArea'
+
+2018-10-29 00:17:51 - [MESSAGE][PASSED] - Keys 'test test test test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/commentTextArea'
+
+2018-10-29 00:17:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationPopup/okButton1' is clicked on
+
+2018-10-29 00:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationPopup/okButton1' is clicked on
+
+2018-10-29 00:17:51 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clickable
+
+2018-10-29 00:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clickable
+
+2018-10-29 00:17:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clicked on
+
+2018-10-29 00:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clicked on
+
+2018-10-29 00:17:51 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/closeButton' is clickable
+
+2018-10-29 00:17:53 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/closeButton' is clickable
+
+2018-10-29 00:17:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CalenderPage/reservationSuccessfullPopup' are matched.
+
+2018-10-29 00:17:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CalenderPage/reservationSuccessfullPopup' are matched.
+
+2018-10-29 00:17:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/closeButton' is clicked on
+
+2018-10-29 00:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/closeButton' is clicked on
+
+2018-10-29 00:17:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/NewRezervation' successfully
+
+2018-10-29 00:17:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/splitRezervation' successfully
+
+2018-10-29 00:17:54 - [TEST_CASE][PASSED] - Test Cases/Helper/splitRezervation: Test Cases/Helper/splitRezervation
+
+2018-10-29 00:17:54 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/splitButton' is clickable
+
+2018-10-29 00:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/splitButton' is clickable
+
+2018-10-29 00:17:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/splitButton' is clicked on
+
+2018-10-29 00:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/splitButton' is clicked on
+
+2018-10-29 00:17:54 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervation' is clickable
+
+2018-10-29 00:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervation' is clickable
+
+2018-10-29 00:17:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-29 00:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-29 00:17:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/seperator' is clickable
+
+2018-10-29 00:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/seperator' is clickable
+
+2018-10-29 00:17:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/seperator' is clicked on
+
+2018-10-29 00:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/seperator' is clicked on
+
+2018-10-29 00:17:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/splitRezervation' successfully
+
+2018-10-29 00:17:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/rezervation' is present
+
+2018-10-29 00:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervation' is present
+
+2018-10-29 00:17:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/rezervationSplit' is present
+
+2018-10-29 00:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationSplit' is present
+
+2018-10-29 00:17:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 00:17:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rezervations/testRezervationSend" classname="Test Cases/Rezervations/testRezervationSend" status="PASSED">
+         <system-out><![CDATA[2018-10-29 00:17:57 - [TEST_CASE][PASSED] - Test Cases/Rezervations/testRezervationSend: Test Cases/Rezervations/testRezervationSend
+
+2018-10-29 00:17:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:17:57 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-29 00:17:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 00:18:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 00:18:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 00:18:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 00:18:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:18:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:18:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:18:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-29 00:18:11 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-29 00:18:11 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-29 00:18:11 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-29 00:18:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/thankYouMailSend' successfully
+
+2018-10-29 00:18:11 - [TEST_CASE][PASSED] - Test Cases/Helper/thankYouMailSend: Test Cases/Helper/thankYouMailSend
+
+2018-10-29 00:18:11 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/sendButton' is clickable
+
+2018-10-29 00:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/sendButton' is clickable
+
+2018-10-29 00:18:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/sendButton' is clicked on
+
+2018-10-29 00:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/sendButton' is clicked on
+
+2018-10-29 00:18:14 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-29 00:18:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-29 00:18:14 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/thankYouButton' is clickable
+
+2018-10-29 00:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/thankYouButton' is clickable
+
+2018-10-29 00:18:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/new-mail/thankYouButton' is clicked on
+
+2018-10-29 00:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/new-mail/thankYouButton' is clicked on
+
+2018-10-29 00:18:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:17 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/sendButton' is clickable
+
+2018-10-29 00:18:17 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/sendButton' is clickable
+
+2018-10-29 00:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/new-mail/sendButton' is clicked on
+
+2018-10-29 00:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/new-mail/sendButton' is clicked on
+
+2018-10-29 00:18:21 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/sentSuccessfullBox' is clickable
+
+2018-10-29 00:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/sentSuccessfullBox' is clickable
+
+2018-10-29 00:18:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/new-mail/sentSuccessfullBox' are matched.
+
+2018-10-29 00:18:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/new-mail/sentSuccessfullBox' are matched.
+
+2018-10-29 00:18:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/thankYouMailSend' successfully
+
+2018-10-29 00:18:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 00:18:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rezervations/testQuickInvoice" classname="Test Cases/Rezervations/testQuickInvoice" status="PASSED">
+         <system-out><![CDATA[2018-10-29 00:18:22 - [TEST_CASE][PASSED] - Test Cases/Rezervations/testQuickInvoice: Test Cases/Rezervations/testQuickInvoice
+
+2018-10-29 00:18:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:18:22 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-29 00:18:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 00:18:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 00:18:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 00:18:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 00:18:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:29 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:29 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:30 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-29 00:18:35 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/createQuickInvoice' successfully
+
+2018-10-29 00:18:35 - [TEST_CASE][PASSED] - Test Cases/Helper/createQuickInvoice: Test Cases/Helper/createQuickInvoice
+
+2018-10-29 00:18:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/quickInvoiceButton' is clickable
+
+2018-10-29 00:18:37 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/quickInvoiceButton' is clickable
+
+2018-10-29 00:18:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/quickInvoiceButton' is clicked on
+
+2018-10-29 00:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/quickInvoiceButton' is clicked on
+
+2018-10-29 00:18:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Rezervations/QuickInvoice/commentTextArea' is visible
+
+2018-10-29 00:18:38 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/QuickInvoice/commentTextArea' is visible
+
+2018-10-29 00:18:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test Comment' sent to object: 'Object Repository/Rezervations/QuickInvoice/commentTextArea'
+
+2018-10-29 00:18:39 - [MESSAGE][PASSED] - Keys 'Test Comment' sent to object: 'Object Repository/Rezervations/QuickInvoice/commentTextArea'
+
+2018-10-29 00:18:39 - [TEST_STEP][PASSED] - sendKeys: Keys '123456' sent to object: 'Object Repository/Rezervations/QuickInvoice/recipientTaxNumberInput'
+
+2018-10-29 00:18:39 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Rezervations/QuickInvoice/recipientTaxNumberInput'
+
+2018-10-29 00:18:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/QuickInvoice/printCheckBox' is clickable
+
+2018-10-29 00:18:39 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/QuickInvoice/printCheckBox' is clickable
+
+2018-10-29 00:18:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/QuickInvoice/printCheckBox' is clicked on
+
+2018-10-29 00:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/QuickInvoice/printCheckBox' is clicked on
+
+2018-10-29 00:18:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/QuickInvoice/createInvoiceButton' is clicked on
+
+2018-10-29 00:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/QuickInvoice/createInvoiceButton' is clicked on
+
+2018-10-29 00:18:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-29 00:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-29 00:18:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/createQuickInvoice' successfully
+
+2018-10-29 00:18:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 00:18:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Restrictions/ShowDateInterval" classname="Test Cases/Restrictions/ShowDateInterval" status="PASSED">
+         <system-out><![CDATA[2018-10-29 00:18:43 - [TEST_CASE][PASSED] - Test Cases/Restrictions/ShowDateInterval: Test Cases/Restrictions/ShowDateInterval
+
+2018-10-29 00:18:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:18:43 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-29 00:18:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 00:18:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 00:18:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 00:18:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 00:18:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:50 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-29 00:18:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-29 00:18:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:51 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-29 00:18:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:51 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-29 00:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-29 00:18:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:18:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:18:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-29 00:18:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-29 00:18:56 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-29 00:18:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-29 00:18:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-29 00:18:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/SettingsAccommodationsRestrictionsPage' successfully
+
+2018-10-29 00:18:56 - [TEST_CASE][PASSED] - Test Cases/Helper/SettingsAccommodationsRestrictionsPage: Test Cases/Helper/SettingsAccommodationsRestrictionsPage
+
+2018-10-29 00:18:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Restricitons/button_Settings' is clicked on
+
+2018-10-29 00:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/button_Settings' is clicked on
+
+2018-10-29 00:18:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Restricitons/a_Accommodations' is clicked on
+
+2018-10-29 00:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/a_Accommodations' is clicked on
+
+2018-10-29 00:18:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Restricitons/div_Restrictions' is clicked on
+
+2018-10-29 00:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/div_Restrictions' is clicked on
+
+2018-10-29 00:18:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/SettingsAccommodationsRestrictionsPage' successfully
+
+2018-10-29 00:18:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/RestrictionSelectRoomMinMax' successfully
+
+2018-10-29 00:18:58 - [TEST_CASE][PASSED] - Test Cases/Helper/RestrictionSelectRoomMinMax: Test Cases/Helper/RestrictionSelectRoomMinMax
+
+2018-10-29 00:18:58 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Restricitons/floor_select' is double clicked on
+
+2018-10-29 00:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/floor_select' is double clicked on
+
+2018-10-29 00:18:59 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Restricitons/input_Min Stay_min'
+
+2018-10-29 00:19:00 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Restricitons/input_Min Stay_min'
+
+2018-10-29 00:19:00 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Restricitons/input_Max Stay_max'
+
+2018-10-29 00:19:00 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Restricitons/input_Max Stay_max'
+
+2018-10-29 00:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Restricitons/button_Save' is clicked on
+
+2018-10-29 00:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/button_Save' is clicked on
+
+2018-10-29 00:19:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/MainObjects/SuccessNotification' is present
+
+2018-10-29 00:19:01 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is present
+
+2018-10-29 00:19:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:19:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:19:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:19:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/RestrictionSelectRoomMinMax' successfully
+
+2018-10-29 00:19:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/DeleteRestrictionSelectRoomMinMax' successfully
+
+2018-10-29 00:19:01 - [TEST_CASE][PASSED] - Test Cases/Helper/DeleteRestrictionSelectRoomMinMax: Test Cases/Helper/DeleteRestrictionSelectRoomMinMax
+
+2018-10-29 00:19:02 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Restricitons/floor_select' is clickable
+
+2018-10-29 00:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/Restricitons/floor_select' is clickable
+
+2018-10-29 00:19:02 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Restricitons/floor_select' is double clicked on
+
+2018-10-29 00:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Restricitons/floor_select' is double clicked on
+
+2018-10-29 00:19:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-29 00:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-10-29 00:19:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 00:19:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Restrictions - base7/input_Min Stay_min'
+
+2018-10-29 00:19:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Restrictions - base7/input_Min Stay_min'
+
+2018-10-29 00:19:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Restrictions - base7/input_Max Stay_max'
+
+2018-10-29 00:19:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Restrictions - base7/input_Max Stay_max'
+
+2018-10-29 00:19:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/DeleteRestrictionSelectRoomMinMax' successfully
+
+2018-10-29 00:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Restrictions - base7/button_Reset to default' is clicked on
+
+2018-10-29 00:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Restrictions - base7/button_Reset to default' is clicked on
+
+2018-10-29 00:19:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/MainObjects/SuccessNotification' is present
+
+2018-10-29 00:19:04 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is present
+
+2018-10-29 00:19:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:19:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-29 00:19:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-29 00:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 00:16:04 - [TEST_SUITE][PASSED] - All Test Cases: Test Cases/Restrictions/ShowDateInterval]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
