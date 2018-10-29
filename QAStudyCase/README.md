@@ -1,7 +1,11 @@
 # StudyCaseQA
 
 Hello, 
-PREREQUEST: Please don't forget to run test cases with "pre prod" instead of default and also select "pre prod" under profile.
+
+PREREQUEST: Please don't forget to run test cases with "PRE PROD" instead of default and
+
+also select "PRE PROD" under profile.
+
 Katalon Studio Tool is used for test automation.
 
 Cases are gathered in "Test Suite".
