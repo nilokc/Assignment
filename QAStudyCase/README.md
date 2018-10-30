@@ -12,3 +12,7 @@ Cases are gathered in "Test Suite".
 
 Please check "Helper" cases which used to call from other cases to reduce complexity and step number.
 Also System Notification pop up cases are provided.
+
+IMPORTANT NOTE: PLEASE ALSO CHECK MY OTHER REPO TO REACH REST ASSURED TESTS OF STUDY CASE
+
+https://github.com/nilokc/REST-API-TEST
